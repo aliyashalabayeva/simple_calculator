@@ -4,25 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/brown">
+    android:background="@color/white">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:gravity="end"
-        android:textColor="@color/white"
-        android:background="@color/brown"
+        android:textColor="@color/black"
+        android:background="@color/white"
         android:padding="10dp"
-        android:text="55"/>
+        android:text=""/>
     <TextView
+        android:id="@+id/tvOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="60sp"
         android:gravity="end"
-        android:textColor="@color/white"
-        android:background="@color/brown"
+        android:textColor="@color/black"
+        android:background="@color/white"
         android:padding="10dp"
-        android:text="55"/>
+        android:text=""/>
 
 </LinearLayout>
